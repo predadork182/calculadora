@@ -79,7 +79,7 @@ function Calculadora() {
         <Col>
           <Button variant='light' onClick={() => adicionarNumero('0')}>0</Button> 
         </Col>
-        <Col>
+        <Col> 
           <Button variant='light'>.</Button> 
         </Col>
         <Col>
@@ -89,7 +89,7 @@ function Calculadora() {
           <Button variant='warning' onClick={() => definirOperacao('+')}>+</Button> 
         </Col>
       </Row>
-    </Container>
+    </Container> 
   );
 }
 
